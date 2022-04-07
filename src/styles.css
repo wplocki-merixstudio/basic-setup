@@ -1,0 +1,63 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+button {
+  margin: 0;
+  outline: none;
+  border: none;
+}
+
+* {
+  font-family: "Euclid Circular A", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+}
+
+:root {
+  --typography-primary: #181628;
+}
+
+.text {
+  color: var(--typography-primary);
+  font-family: "Euclid Circular A, Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.button {
+  color: #fff;
+  background: #1930e5;
+
+  border-radius: 4px;
+  padding: 14px 20px;
+
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.input {
+  background: #ffffff;
+  color: var(--typography-primary);
+
+  font-size: 15px;
+  line-height: 20px;
+
+  border: 1px solid #e3e3e6;
+  border-radius: 4px 0px 0px 4px;
+  padding: 9px 12px;
+}
+
+.link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
