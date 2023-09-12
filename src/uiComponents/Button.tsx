@@ -9,4 +9,6 @@ export const Button = styled.button`
 
   font-size: 16px;
   line-height: 20px;
+
+  margin-top: 40px;
 `;

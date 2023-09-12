@@ -3,8 +3,10 @@ import styled from "styled-components";
 
 import "./styles.css";
 
+import { Login } from './features/Login';
+
 function App() {
-  return <Wrapper></Wrapper>;
+  return <Login />
 }
 
 const Wrapper = styled.div`

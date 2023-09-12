@@ -21,6 +21,7 @@ button {
 
 :root {
   --typography-primary: #181628;
+  --typography-secondary: #4D4D5C;
 }
 
 .text {
